@@ -40,14 +40,14 @@ app.on('error', err => {
   log.error('server error', err)
 });
 
-const Gadget = require('./models/gadgets');
-const newGadget = new Gadget({
-  name: 'abc',
-  release_date: '07/06/2000',
-  by_company: 'Apple',
-  price: 79
-})
-newGadget
-  .save()
-  .then(item => console.log(item))
-  .catch(err => console.log(err));
+// const Gadget = require('./models/gadgets');
+// const newGadget = new Gadget({
+//   name: 'abc',
+//   release_date: '07/06/2000',
+//   by_company: 'Apple',
+//   price: 79
+// })
+// newGadget
+//   .save()
+//   .then(item => console.log(item))
+//   .catch(err => console.log(err));
