@@ -8,17 +8,28 @@
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue src",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "start": "pm2 start app.js"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
+    "apollo-cache-inmemory": "^1.6.2",
+    "apollo-client": "^2.6.3",
+    "apollo-link-error": "^1.1.11",
+    "apollo-link-http": "^1.5.15",
     "axios": "^0.18.1",
+    "graphql": "^14.4.2",
+    "graphql-tag": "^2.10.1",
     "koa": "^2.7.0",
     "koa-bodyparser": "^4.2.1",
+    "koa-graphql": "^0.8.0",
     "koa-json": "^2.0.2",
     "koa-logger": "^3.2.1",
+    "koa-mount": "^4.0.0",
     "koa-router": "^5.4.2",
-    "quasar": "^1.0.0"
+    "mongoose": "^5.6.7",
+    "quasar": "^1.0.0",
+    "vue-apollo": "^3.0.0-rc.2"
   },
   "devDependencies": {
     "@quasar/app": "^1.0.0",
