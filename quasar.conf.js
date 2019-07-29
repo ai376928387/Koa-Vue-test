@@ -50,6 +50,8 @@ module.exports = function (ctx) {
         'QImg',
         'QInput',
         'QForm',
+        'QTable',
+        'QScrollArea'
       ],
 
       directives: [
